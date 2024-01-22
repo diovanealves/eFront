@@ -1,4 +1,5 @@
 <script lang="ts">
+import CardData from '@/components/CardData.vue'
 import PriceComponent from '@/components/PriceComponent.vue'
 import logo from '../assets/logoeFront.png'
 
@@ -8,7 +9,7 @@ export default {
       logo
     }
   },
-  components: { PriceComponent }
+  components: { PriceComponent, CardData }
 }
 </script>
 
@@ -26,7 +27,7 @@ export default {
       </RouterLink>
     </div>
 
-    <div class="grid grid-row-2 md:grid-cols-2 items-center place-items-end mt-16 gap-10">
+    <div class="md:w-3/5 mx-auto grid place-items-center lg:grid-cols-2 lg:w-full gap-10 mt-10">
       <div class="space-y-4">
         <h1 class="text-3xl md:text-5xl">
           Comece a estudar <span class="text-[#899BFF]">frontend</span> do zero com uma linguagem
@@ -39,5 +40,6 @@ export default {
 
       <PriceComponent />
     </div>
+    <CardData />
   </div>
 </template>

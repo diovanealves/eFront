@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white text-black rounded-md max-w-md py-9 px-7">
+  <div class="bg-white text-black w-full lg:w-4/5 rounded-md py-9 px-7">
     <div class="flex items-center gap-4">
       <h1 class="bg-[#0B0C14] text-white md:text-lg font-bold rounded-md py-2 px-5">90% OFF</h1>
       <p class="text-[##141726] font-medium">Por tempo limitado</p>
