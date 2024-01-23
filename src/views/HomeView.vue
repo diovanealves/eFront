@@ -22,7 +22,7 @@ export default {
     <div class="flex items-center justify-between mt-4">
       <img :src="logo" alt="Logo da eFront" class="w-7 h-8" />
 
-      <RouterLink to="/login">
+      <RouterLink to="#">
         <button>Login</button>
       </RouterLink>
     </div>
