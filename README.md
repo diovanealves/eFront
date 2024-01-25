@@ -1,68 +1,68 @@
-# eFront
+<h1 align="center">eFront</h1>
 
-This template should help get you started developing with Vue 3 in Vite.
+<p align="center">Desenvolvimento de uma landing page. para a venda do ebook do eFront</p>
 
-## Recommended IDE Setup
+![](./src/assets/preview.jpg)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">Licença</a>
+</p>
 
-## Type Support for `.vue` Imports in TS
+<p align="center">
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
+</p>
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+## 🚀 Tecnologias
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+### Front-End
 
-## Customize configuration
+- VueJS
+- TailwindCSS
+- Phosphor Icons
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## 🚀 Etapas para rodar o projeto
 
-## Project Setup
+Para iniciar o projeto, siga estas etapas:
 
-```sh
+> Clone o repositório do projeto:
+
+```bash
+git clone https://github.com/diovanealves/eFront
+```
+
+> Acesse a pasta do projeto do eFront e digite esse codigo no terminal:
+
+```bash
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+> E para rodar a aplicação na web de um:
 
-```sh
+```bash
 npm run dev
 ```
 
-### Type-Check, Compile and Minify for Production
+<h2 align="center">Autor</h2>
+<table>
+  <tr>
+    <td>
+        <img src="https://avatars.githubusercontent.com/u/87160050?v=4" width="100px;" alt="Foto do Diovane Alves no GitHub"/>
+            <a href="https://github.com/diovanealves" style="color:#4f46e5" align="center">
+                <p>Github</p>
+            </a>
+            <a href="https://www.linkedin.com/in/diovane-alves-de-oliveira-5320a0217/" style="color:#4f46e5" align="center">
+                <p>Linkedin</p>
+            </a>
+            <a href="https://twitter.com/deluxyfps" style="color:#4f46e5" align="center">
+                <p>Twitter</p>
+            </a>
+    </td>
+  </tr>
+</table>
 
-```sh
-npm run build
-```
+## 📝 Licença
 
-### Run Headed Component Tests with [Cypress Component Testing](https://on.cypress.io/component)
-
-```sh
-npm run test:unit:dev # or `npm run test:unit` for headless testing
-```
-
-### Run End-to-End Tests with [Cypress](https://www.cypress.io/)
-
-```sh
-npm run test:e2e:dev
-```
-
-This runs the end-to-end tests against the Vite development server.
-It is much faster than the production build.
-
-But it's still recommended to test the production build with `test:e2e` before deploying (e.g. in CI environments):
-
-```sh
-npm run build
-npm run test:e2e
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+Esse projeto está sob a licença MIT.
